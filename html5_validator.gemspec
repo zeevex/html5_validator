@@ -19,5 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "json"
   s.add_dependency "rest-client"
   s.add_dependency "rspec", "~> 1.3.2"
+  s.add_dependency "POpen4", ">= 0.1.4"
+
   s.require_paths = ["lib"]
 end

@@ -1,0 +1,14 @@
+Error:
+End tag for “body” seen but there were unclosed elements.
+File: Unknown
+Line: 9 Col: 7
+
+Error:
+Unclosed element “section”.
+File: Unknown
+Line: 8 Col: 11
+
+Warning:
+The character encoding of the document was not declared.
+File: Unknown
+Line: -1 Col: -1

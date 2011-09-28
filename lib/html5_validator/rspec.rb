@@ -2,7 +2,7 @@
 Spec::Matchers.define :be_valid_html5 do
   validator = nil
   match do |body|
-    validator = Html5Validator::Validator.new
+    validator = Html5Validator::JavaValidator.new
     validator.validate_text(body)
     validator.valid?
   end
