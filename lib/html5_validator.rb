@@ -3,7 +3,7 @@ require 'bundler'
 Bundler.require
 require 'json'
 require 'rest_client'
-require 'rspec'
+require 'spec'
 require 'html5_validator/rspec'
 
 module Html5Validator

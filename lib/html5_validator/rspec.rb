@@ -1,5 +1,5 @@
 # Assert that the response is valid HTML5
-RSpec::Matchers.define :be_valid_html5 do
+Spec::Matchers.define :be_valid_html5 do
   validator = nil
   match do |body|
     validator = Html5Validator::Validator.new
