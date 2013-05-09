@@ -3,7 +3,7 @@ require 'bundler'
 Bundler.require
 require 'json'
 require 'rest_client'
-require 'spec'
+require 'rspec'
 require 'html5_validator/rspec'
 require 'popen4'
 require 'net/http'

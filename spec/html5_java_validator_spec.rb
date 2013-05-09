@@ -1,3 +1,4 @@
+# Encoding: utf-8
 require 'html5_validator'
 
 describe "Html5JavaValidator" do
@@ -24,7 +25,7 @@ describe "Html5JavaValidator" do
 
   context "when parsing the validator output" do
     let :output do
-      <<-end_of_doc.gsub(/^ +/, '')
+      doc = <<-end_of_doc
         Error:
         Unclosed element “section”.
         File: Unknown
@@ -40,6 +41,7 @@ describe "Html5JavaValidator" do
         File: Unknown
         Line: 9 Col: 7
       end_of_doc
+      doc.gsub(/^ +/, '')
     end
 
     before do
